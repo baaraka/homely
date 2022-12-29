@@ -1,0 +1,35 @@
+.topBar {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  background-color: orange;
+}
+.topBarTitle {
+  height: 100%;
+  width: 100%;
+  flex: 3;
+}
+.topBarTitleItem {
+  margin-left: 70px;
+  padding: 10px;
+}
+.topBarTitle {
+  width: 100%;
+  height: 100%;
+}
+.topBarCart {
+  width: 100%;
+  width: 100%;
+  flex: 1;
+}
+.topBarCartItem {
+  padding: 10px;
+}
+.topBarListItem {
+  list-style: none;
+  display: flex;
+  padding: 10px;
+}
+.topBarListItems {
+  margin-right: 20px;
+}
