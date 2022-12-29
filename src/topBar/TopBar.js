@@ -9,10 +9,10 @@ export default function TopBar() {
       <div className="topBarTitle">
         <ul className="topBarListItem">
           <li className="topBarListItems">Home</li>
+          <li className="topBarListItems">Why Choose Us</li>
+          <li className="topBarListItems">Our dishes</li>
           <li className="topBarListItems">About Us</li>
-          <li className="topBarListItems">Our Products</li>
           <li className="topBarListItems">Testimonials</li>
-          <li className="topBarListItems">Contact Us</li>
         </ul>
       </div>
       <div className="topBarCart">
