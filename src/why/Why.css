@@ -1,0 +1,59 @@
+.why {
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.whyTitle {
+  height: 100%;
+  width: 100%;
+  padding-bottom: 50px;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+.whyTitleItem {
+  color: orange;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 20px;
+}
+.whyParagraphItem {
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+}
+.whyTitleBody {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(33, 32, 32);
+}
+.whyTitleBodyItem {
+  width: 300px;
+  max-width: 100%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 70px;
+  padding: 60px 0px;
+  background-color: black;
+}
+.whyIcon {
+  color: orange;
+  font-size: 70px;
+  margin-left: 50px;
+  padding: 30px;
+}
+.whyHeading {
+  color: orange;
+  font-size: 30px;
+  padding: 0px 30px;
+}
+.whyParagraph {
+  color: white;
+  padding: 30px;
+  line-height: 25px;
+}
