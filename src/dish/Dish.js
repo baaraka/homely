@@ -17,7 +17,7 @@ export default function Dish() {
             className="dishImg"
           />
           <p className="dishParagraphImg">Yam and egg sauce</p>
-          <span className="dishNumber">TZS5000.00/=</span>
+          <span className="dishNumber">TZS 5000.00/=</span>
           <input className="dishInput" type="number" placeholder="1" />
           <button className="dishButton">+ Add</button>
         </div>
@@ -28,7 +28,7 @@ export default function Dish() {
             className="dishImg"
           />
           <p className="dishParagraphImg">Yam and egg sauce</p>
-          <span className="dishNumber">TZS5000.00/=</span>
+          <span className="dishNumber">TZS 5000.00/=</span>
           <input className="dishInput" type="number" placeholder="1" />
           <button className="dishButton">+ Add</button>
         </div>
@@ -39,7 +39,7 @@ export default function Dish() {
             className="dishImg"
           />
           <p className="dishParagraphImg">Yam and egg sauce</p>
-          <span className="dishNumber">TZS5000.00/=</span>
+          <span className="dishNumber">TZS 5000.00/=</span>
           <input className="dishInput" type="number" placeholder="1" />
           <button className="dishButton">+ Add</button>
         </div>
@@ -50,7 +50,7 @@ export default function Dish() {
             className="dishImg"
           />
           <p className="dishParagraphImg">Yam and egg sauce</p>
-          <span className="dishNumber">TZS5000.00/=</span>
+          <span className="dishNumber">TZS 5000.00/=</span>
           <input className="dishInput" type="number" placeholder="1" />
           <button className="dishButton">+ Add</button>
         </div>
@@ -61,7 +61,7 @@ export default function Dish() {
             className="dishImg"
           />
           <p className="dishParagraphImg">Yam and egg sauce</p>
-          <span className="dishNumber">TZS5000.00/=</span>
+          <span className="dishNumber">TZS 5000.00/=</span>
           <input className="dishInput" type="number" placeholder="1" />
           <button className="dishButton">+ Add</button>
         </div>
@@ -72,7 +72,7 @@ export default function Dish() {
             className="dishImg"
           />
           <p className="dishParagraphImg">Yam and egg sauce</p>
-          <span className="dishNumber">TZS5000.00/=</span>
+          <span className="dishNumber">TZS 5000.00/=</span>
           <input className="dishInput" type="number" placeholder="1" />
           <button className="dishButton">+ Add</button>
         </div>
