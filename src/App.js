@@ -6,6 +6,7 @@ import Dish from "./dish/Dish";
 import About from "./about/About";
 import Get from "./get/Get";
 import Testimonial from "./testimonial/Testimonial";
+import New from "./new/New";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <About />
       <Get />
       <Testimonial />
+      <New />
     </div>
   );
 }
