@@ -1,0 +1,49 @@
+.get {
+  height: 100%;
+  width: 100%;
+  padding-bottom: 40px;
+  background-color: black;
+}
+.getHeadingDiv {
+  height: 100%;
+  width: 100%;
+}
+.getHeading {
+  color: orange;
+  text-align: center;
+  font-size: 50px;
+  padding: 20px 0px;
+}
+.paragraphHeading {
+  color: white;
+  text-align: center;
+}
+.getBody {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+}
+.getBodyParagraph {
+  height: 100%;
+  width: 100%;
+}
+.getBodyP {
+  color: white;
+  font-size: 20px;
+  line-height: 30px;
+  margin-left: 70px;
+  width: 400px;
+  max-width: 100%;
+}
+.getImage {
+  height: 100%;
+  width: 100%;
+  padding-left: 150px;
+}
+.getImg {
+  width: 440px;
+  height: 400px;
+}
