@@ -3,6 +3,7 @@ import "./App.css";
 import Home from "./home/Home";
 import TopBar from "./topBar/TopBar";
 import Dish from "./dish/Dish";
+import About from "./about/About";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Home />
       <Why />
       <Dish />
+      <About />
     </div>
   );
 }
