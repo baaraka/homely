@@ -1,0 +1,38 @@
+.new {
+  height: 100%;
+  width: 100%;
+  padding-bottom: 40px;
+  background-color: black;
+}
+.newHead {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.newHeading {
+  color: orange;
+  font-size: 50px;
+  text-align: center;
+  padding: 20px 0;
+}
+.newParagraph {
+  color: white;
+  text-align: center;
+  padding-bottom: 40px;
+}
+.newInput {
+  text-align: center;
+  align-items: center;
+  padding: 20px 80px;
+  border-radius: 10px;
+}
+.newButton {
+  color: white;
+  margin-left: 10px;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 10px;
+  background-color: orange;
+}
