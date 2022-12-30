@@ -1,0 +1,41 @@
+.footer {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  padding-bottom: 30px;
+  background-color: orange;
+}
+.footerLeft {
+  height: 100%;
+  width: 100%;
+  padding: 0 90px;
+}
+.headingLeft {
+  font-size: 35px;
+  padding: 20px 0;
+}
+.paragraphLeft {
+  line-height: 25px;
+  font-size: 17px;
+  padding-bottom: 20px;
+}
+.spanLeft {
+  padding-bottom: 20px;
+}
+.paragraphCenter {
+  padding: 10px 0;
+}
+.headingLeftR {
+  font-size: 35px;
+  padding: 20px 0;
+  text-align: center;
+}
+.spanRight {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.iconR {
+  padding: 5px 0;
+  font-size: 30px;
+}
