@@ -7,6 +7,7 @@ import About from "./about/About";
 import Get from "./get/Get";
 import Testimonial from "./testimonial/Testimonial";
 import New from "./new/New";
+import Footer from "./footer/Footer";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Get />
       <Testimonial />
       <New />
+      <Footer />
     </div>
   );
 }
