@@ -1,0 +1,44 @@
+.test {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+.testHead {
+  height: 100%;
+  width: 100%;
+}
+.testHeading {
+  color: orange;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 40px;
+}
+.testParagraph {
+  color: white;
+  padding-top: 15px;
+  text-align: center;
+}
+.testBody {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0px;
+}
+.testBodyList {
+  height: 100%;
+  width: 100%;
+  padding: 0 80px;
+}
+.testBodyListItem {
+  color: white;
+  padding-bottom: 10px;
+}
+.testBodyParagraph {
+  color: white;
+  padding-bottom: 20px;
+}
+.testBodyParagraphs {
+  color: white;
+}
