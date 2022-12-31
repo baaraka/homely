@@ -24,6 +24,10 @@
 }
 .paragraphCenter {
   padding: 10px 0;
+  cursor: pointer;
+}
+.paragraphCenter:hover {
+  color: white;
 }
 .headingLeftR {
   font-size: 35px;
@@ -36,6 +40,12 @@
   align-items: center;
 }
 .iconR {
-  padding: 5px 0;
+  padding: 5px 5px;
   font-size: 30px;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: orange;
+}
+.iconR:hover {
+  background-color: white;
 }
