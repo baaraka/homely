@@ -3,7 +3,7 @@ import "./TopBar.css";
 export default function TopBar() {
   return (
     <div className="topBar">
-      <div className="topBarTitle">
+      <div className="topBarTitleLeft">
         <h1 className="topBarTitleItem">HOMELY</h1>
       </div>
       <div className="topBarTitle">
@@ -16,7 +16,15 @@ export default function TopBar() {
         </ul>
       </div>
       <div className="topBarCart">
-        <h3 className="topBarCartItem">Cart</h3>
+        <button className="topBarCartItem">
+          <span className="topCart">
+            <i class="topBarCart fa-solid fa-cart-shopping"></i>
+          </span>
+          Cart
+          <span className="topInput">
+            <input className="topInputItem" type="total" />
+          </span>
+        </button>
       </div>
     </div>
   );
