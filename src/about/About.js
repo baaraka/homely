@@ -12,18 +12,19 @@ export default function About() {
           cooked food anywhere you want. You deserve to eat great food, whether
           you're at home or on the go.
         </p>
+        <button className="aboutBtn">See More</button>
       </div>
       <div className="aboutImage">
         <div className="aboutImage1">
           <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIk4zbUuFgiTifhzEeW_RnUzIKKoP4glkShA&usqp=CAU"
+            src="https://media.istockphoto.com/id/1299912714/photo/happy-retired-senior-man-cooking-in-kitchen-retirement-hobby-people-concept.jpg?s=612x612&w=0&k=20&c=HLBm0L4_dkgyXZpF2S-EIj5lsGwhrQCML5ruyvP-7EM="
             alt=""
             className="aboutImg1"
           />
         </div>
         <div className="aboutImage2">
           <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIk4zbUuFgiTifhzEeW_RnUzIKKoP4glkShA&usqp=CAU"
+            src="https://media.istockphoto.com/id/603906484/photo/vegetable-salad.jpg?s=612x612&w=0&k=20&c=f7BnJRCqLKaj_DEQB1SB71_eRT8y1XRP52dDyYRSxuE="
             alt=""
             className="aboutImg2"
           />
