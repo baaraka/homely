@@ -16,6 +16,7 @@
 }
 .paragraphHeading {
   color: white;
+  font-size: 20px;
   text-align: center;
 }
 .getBody {
@@ -37,6 +38,7 @@
   margin-left: 70px;
   width: 400px;
   max-width: 100%;
+  padding-bottom: 20px;
 }
 .getImage {
   height: 100%;
@@ -46,4 +48,34 @@
 .getImg {
   width: 440px;
   height: 400px;
+}
+.apple {
+  font-size: 20px;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 70px;
+  background-color: orange;
+}
+.apple:hover {
+  background-image: linear-gradient(orangered, orange);
+}
+.playStore {
+  font-size: 20px;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 10px;
+  background-color: orange;
+}
+.playStore:hover {
+  background-image: linear-gradient(orangered, orange);
+}
+.playLogo {
+  font-size: 30px;
+}
+.appleLogo {
+  font-size: 30px;
 }
