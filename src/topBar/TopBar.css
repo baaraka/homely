@@ -1,15 +1,23 @@
 .topBar {
   height: 100%;
   width: 100%;
+  top: 0;
+  position: sticky;
+  z-index: 1000;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: orange;
 }
-.topBarTitle {
+.topBarTitleLeft {
   height: 100%;
   width: 100%;
   flex: 3;
+}
+.topBarTitle {
+  height: 100%;
+  width: 100%;
+  flex: 6;
 }
 .topBarTitleItem {
   margin-left: 70px;
@@ -18,14 +26,34 @@
 .topBarTitle {
   width: 100%;
   height: 100%;
+  position: relative;
 }
 .topBarCart {
   width: 100%;
   width: 100%;
-  flex: 1;
+  flex: 3;
+  margin-left: 20px;
 }
 .topBarCartItem {
-  padding: 10px;
+  font-size: 20px;
+  display: flex;
+  padding: 10px 30px;
+  border-radius: 15px;
+  border: none;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-image: linear-gradient(orangered, orange);
+}
+.topBarCartItem:hover {
+  background-image: linear-gradient(orange, orangered);
+}
+.topInputItem {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  border-radius: 10px;
+  border: none;
 }
 .topBarListItem {
   list-style: none;
@@ -34,4 +62,7 @@
 }
 .topBarListItems {
   margin-right: 20px;
+}
+.topCart {
+  margin-right: 15px;
 }
