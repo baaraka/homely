@@ -19,6 +19,7 @@
 }
 .paragraphDish {
   color: white;
+  font-size: 20px;
   text-align: center;
 }
 .dishBody {
@@ -61,9 +62,11 @@
   height: 25px;
 }
 .dishButton {
-  color: white;
   padding: 10px 20px;
   border-radius: 10px;
   border: none;
   background-color: orange;
+}
+.dishButton:hover {
+  background-image: linear-gradient(orangered, orange);
 }
