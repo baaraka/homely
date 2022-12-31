@@ -10,26 +10,28 @@ export default function Testimonial() {
       <div className="testBody">
         <div className="testBodyList">
           <h1 className="testBodyListItem">Paul James</h1>
-          <p className="testBodyParagraph">Lagos state</p>
+          <p className="testBodyParagraph">Dar es salam Region</p>
           <p className="testBodyParagraphs">
             With a Homely Eats meal, you can serve delectable, home-cooked meals
             to your family and friends in any location, anytime. anyday!
           </p>
         </div>
         <div className="testBodyList">
-          <h1 className="testBodyListItem">Paul James</h1>
-          <p className="testBodyParagraph">Lagos state</p>
+          <h1 className="testBodyListItem">Mercy jude</h1>
+          <p className="testBodyParagraph">Dodoma Region</p>
           <p className="testBodyParagraphs">
-            With a Homely Eats meal, you can serve delectable, home-cooked meals
-            to your family and friends in any location, anytime. anyday!
+            Be it a small gathering of friends or a large event with hundreds of
+            people, you'll always be prepared. whether you're at home or on the
+            go.
           </p>
         </div>
         <div className="testBodyList">
-          <h1 className="testBodyListItem">Paul James</h1>
-          <p className="testBodyParagraph">Lagos state</p>
+          <h1 className="testBodyListItem">Lara one</h1>
+          <p className="testBodyParagraph">Arusha Region</p>
           <p className="testBodyParagraphs">
-            With a Homely Eats meal, you can serve delectable, home-cooked meals
-            to your family and friends in any location, anytime. anyday!
+            No need to worry about any of this anymore with your app. Homely
+            Eats are made with the highest quality ingredients for you and your
+            family.
           </p>
         </div>
       </div>
