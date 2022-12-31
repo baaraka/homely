@@ -13,10 +13,11 @@ export default function Home() {
             Helping you enjoy comfortable and healthy food anywhere and anytime
             on the go
           </p>
+          <button className="homeBtn">Order Now</button>
         </div>
         <div className="homeImg">
           <img
-            src="https://www.dinneratthezoo.com/wp-content/uploads/2017/12/meal-prep-burrito-bowls.jpg"
+            src="https://foodapp-by-eniola.netlify.app/static/media/FoodImage.ccbc8a18b3ce6a6bf1f5.webp"
             alt=""
             className="homeImgItem"
           />
