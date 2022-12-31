@@ -15,6 +15,7 @@
 }
 .testParagraph {
   color: white;
+  font-size: 20px;
   padding-top: 15px;
   text-align: center;
 }
@@ -33,12 +34,16 @@
 }
 .testBodyListItem {
   color: white;
+  font-size: 30px;
   padding-bottom: 10px;
 }
 .testBodyParagraph {
   color: white;
+  font-size: 13px;
   padding-bottom: 20px;
 }
 .testBodyParagraphs {
   color: white;
+  font-size: 15px;
+  line-height: 20px;
 }
