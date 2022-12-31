@@ -23,26 +23,43 @@
   margin-left: 50px;
   padding-left: 25px;
 }
+
 .homeSpan {
   color: orange;
 }
 .homeTitleHead {
-  font-size: 60px;
+  font-size: 50px;
   color: white;
 }
 .homeParagraph {
   color: white;
-  line-height: 20px;
+  font-size: 20px;
+  line-height: 30px;
   padding-top: 30px;
+  padding-bottom: 25px;
+}
+.homeBtn {
+  font-size: 20px;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: width 2s;
+  background-color: orange;
+}
+.homeBtn:hover {
+  width: 180px;
+  background-image: linear-gradient(orangered, orange);
 }
 .homeImg {
+  display: flex;
   height: 100%;
   width: 100%;
   margin-left: 100px;
   margin-top: 80px;
 }
 .homeImgItem {
-  width: 500px;
+  width: 550px;
   max-width: 100%;
   height: 500px;
   border-radius: 20px;
