@@ -2,7 +2,7 @@ import "./Why.css";
 
 export default function Why() {
   return (
-    <div className="why">
+    <div className="why" id="WhyChooseUs">
       <div className="whyTitle">
         <h1 className="whyTitleItem">Why choose us</h1>
         <p className="whyParagraphItem">
