@@ -8,11 +8,21 @@ export default function TopBar() {
       </div>
       <div className="topBarTitle">
         <ul className="topBarListItem">
-          <li className="topBarListItems">Home</li>
-          <li className="topBarListItems">Why Choose Us</li>
-          <li className="topBarListItems">Our dishes</li>
-          <li className="topBarListItems">About Us</li>
-          <li className="topBarListItems">Testimonials</li>
+          <a className="aTop" href="#Home">
+            <li className="topBarListItems">Home</li>
+          </a>
+          <a className="aTop" href="#WhyChooseUs">
+            <li className="topBarListItems">Why Choose Us</li>
+          </a>
+          <a className="aTop" href="#OurDish">
+            <li className="topBarListItems">Our dishes</li>
+          </a>
+          <a className="aTop" href="#AboutUs">
+            <li className="topBarListItems">About Us</li>
+          </a>
+          <a className="aTop" href="#Testimonials">
+            <li className="topBarListItems">Testimonials</li>
+          </a>
         </ul>
       </div>
       <div className="topBarCart">
