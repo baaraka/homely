@@ -1,18 +1,22 @@
+import Data from "../data/Data";
 import "./About.css";
 
 export default function About() {
   return (
-    <div className="about">
+    <div className="about" id="AboutUs">
       <div className="aboutTitle">
         <h1 className="aboutHeading">About us</h1>
-        <p className="aboutParagraph">
-          I make delicious healthy meals for busy people who want to enjoy home
-          made food without the hassle of cooking. Why would you cook when you
-          don't have to? The Hot Plate makes it easy to eat your favorite home
-          cooked food anywhere you want. You deserve to eat great food, whether
-          you're at home or on the go.
+        <p>
+          <Data>
+            I make delicious healthy meals for busy people who want to enjoy
+            home made food without the hassle of cooking. Why would you cook
+            when you don't have to? The Hot Plate makes it easy to eat your
+            favorite home cooked food anywhere you want. You deserve to eat
+            great food, whether you're at home or on the go. We'll help you find
+            unique meals wherever you are. With our app, you never have to
+            settle for unhealthy, expensive takeaway food again.
+          </Data>
         </p>
-        <button className="aboutBtn">See More</button>
       </div>
       <div className="aboutImage">
         <div className="aboutImage1">
