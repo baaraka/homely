@@ -2,7 +2,7 @@ import "./Testimonial.css";
 
 export default function Testimonial() {
   return (
-    <div className="test">
+    <div className="test" id="Testimonials">
       <div className="testHead">
         <h1 className="testHeading">Testimonials</h1>
         <p className="testParagraph">This is what our client are saying</p>
