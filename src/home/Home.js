@@ -2,18 +2,22 @@ import "./Home.css";
 
 export default function Home() {
   return (
-    <div className="home">
+    <div className="home" id="Home">
       <div className="homeTitles">
         <div className="homeTitle">
           <h1 className="homeTitleHead">
-            Enjoy <span className="homeSpan"> home made meals</span> far away
+            Enjoy <span className="homeSpan">home made meals</span> far away
             from home
           </h1>
           <p className="homeParagraph">
             Helping you enjoy comfortable and healthy food anywhere and anytime
             on the go
           </p>
-          <button className="homeBtn">Order Now</button>
+          <button className="homeBtn">
+            <a href="#OurDish" className="aHome">
+              Order Now
+            </a>
+          </button>
         </div>
         <div className="homeImg">
           <img
