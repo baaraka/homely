@@ -3,7 +3,7 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
   align-items: center;
   justify-content: center;
   background-color: black;
@@ -57,9 +57,10 @@
   width: 100%;
   margin-left: 100px;
   margin-top: 80px;
+  object-fit: cover;
 }
 .homeImgItem {
-  width: 550px;
+  width: 530px;
   max-width: 100%;
   height: 500px;
   border-radius: 20px;
@@ -82,4 +83,8 @@
 .paragraph3 {
   padding-top: 10px;
   color: white;
+}
+.aHome {
+  color: inherit;
+  text-decoration: none;
 }
