@@ -47,7 +47,8 @@
 }
 .getImg {
   width: 440px;
-  height: 400px;
+  height: 440px;
+  object-fit: contain;
 }
 .apple {
   font-size: 20px;
