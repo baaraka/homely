@@ -2,7 +2,7 @@ import "./Dish.css";
 
 export default function Dish() {
   return (
-    <div className="dish">
+    <div className="dish" id="OurDish">
       <div className="dishHeading">
         <h1 className="headingDish">Our daily dishes</h1>
         <p className="paragraphDish">
@@ -18,8 +18,10 @@ export default function Dish() {
           />
           <p className="dishParagraphImg">Yam and egg sauce</p>
           <span className="dishNumber">TZS 5000.00/=</span>
-          <input className="dishInput" type="number" placeholder="1" />
-          <button className="dishButton">+ Add</button>
+          <form>
+            <input className="dishInput" type="number" placeholder="1" />
+            <button className="dishButton">+ Add</button>
+          </form>
         </div>
         <div className="dishBodyDiv">
           <img
@@ -29,8 +31,10 @@ export default function Dish() {
           />
           <p className="dishParagraphImg">Jollof rice and chicken</p>
           <span className="dishNumber">TZS 6000.00/=</span>
-          <input className="dishInput" type="number" placeholder="1" />
-          <button className="dishButton">+ Add</button>
+          <form>
+            <input className="dishInput" type="number" placeholder="1" />
+            <button className="dishButton">+ Add</button>
+          </form>
         </div>
         <div className="dishBodyDiv">
           <img
@@ -40,8 +44,10 @@ export default function Dish() {
           />
           <p className="dishParagraphImg">Porridge beans</p>
           <span className="dishNumber">TZS 2000.00/=</span>
-          <input className="dishInput" type="number" placeholder="1" />
-          <button className="dishButton">+ Add</button>
+          <form>
+            <input className="dishInput" type="number" placeholder="1" />
+            <button className="dishButton">+ Add</button>
+          </form>
         </div>
         <div className="dishBodyDiv">
           <img
@@ -51,8 +57,10 @@ export default function Dish() {
           />
           <p className="dishParagraphImg">Semo and egusi soup</p>
           <span className="dishNumber">TZS 4000.00/=</span>
-          <input className="dishInput" type="number" placeholder="1" />
-          <button className="dishButton">+ Add</button>
+          <form>
+            <input className="dishInput" type="number" placeholder="1" />
+            <button className="dishButton">+ Add</button>
+          </form>
         </div>
         <div className="dishBodyDiv">
           <img
@@ -62,8 +70,10 @@ export default function Dish() {
           />
           <p className="dishParagraphImg">Amala and ewedu soup</p>
           <span className="dishNumber">TZS 8000.00/=</span>
-          <input className="dishInput" type="number" placeholder="1" />
-          <button className="dishButton">+ Add</button>
+          <form>
+            <input className="dishInput" type="number" placeholder="1" />
+            <button className="dishButton">+ Add</button>
+          </form>
         </div>
         <div className="dishBodyDiv">
           <img
@@ -73,8 +83,10 @@ export default function Dish() {
           />
           <p className="dishParagraphImg">Eba and okra soup</p>
           <span className="dishNumber">TZS 3500.00/=</span>
-          <input className="dishInput" type="number" placeholder="1" />
-          <button className="dishButton">+ Add</button>
+          <form>
+            <input className="dishInput" type="number" placeholder="1" />
+            <button className="dishButton">+ Add</button>
+          </form>
         </div>
       </div>
     </div>
