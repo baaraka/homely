@@ -35,9 +35,11 @@
   border-radius: 10px;
   margin-left: 70px;
   cursor: pointer;
+  transition: width 2s;
   background-color: orange;
 }
 .aboutBtn:hover {
+  width: 180px;
   background-image: linear-gradient(orangered, orange);
 }
 .aboutImage {
@@ -46,6 +48,7 @@
   display: flex;
   margin-top: 100px;
   padding-left: 140px;
+  object-fit: cover;
 }
 .aboutImg1 {
   width: 220px;
@@ -53,6 +56,7 @@
   top: 20px;
   left: 20px;
   position: relative;
+  object-fit: cover;
 }
 .aboutImg2 {
   width: 220px;
@@ -60,6 +64,7 @@
   bottom: 20px;
   right: 20px;
   position: relative;
+  object-fit: cover;
 }
 .aboutImage1 {
   width: 220px;
