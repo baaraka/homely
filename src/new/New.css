@@ -36,8 +36,11 @@
   border: none;
   font-size: 20px;
   border-radius: 10px;
+  cursor: pointer;
+  transition: width 2s;
   background-color: orange;
 }
 .newButton:hover {
+  width: 170px;
   background-image: linear-gradient(orangered, orange);
 }
