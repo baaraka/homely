@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <div className="footer">
       <div className="footerLeft">
-        <h1 className="headingLeft">Homely</h1>
+        <h1 className="headingLeft">HomeBg</h1>
         <p className="paragraphLeft">
           Solution for easy and flexible getting meals for the household.You can
           trust us anywhere through this platform
