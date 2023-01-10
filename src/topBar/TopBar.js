@@ -30,7 +30,7 @@ export default function TopBar() {
       <div className="topBarCart">
         <button className="topBarCartItem">
           <span className="topCart">
-            <i class="topBarCart fa-solid fa-cart-shopping"></i>
+            <i class="topBarCartL fa-solid fa-cart-shopping"></i>
           </span>
           Cart
           <span className="topInput">
@@ -65,7 +65,7 @@ export default function TopBar() {
           </ul>
           <button className="sideBarCartItem">
             <span className="topCart">
-              <i class="topBarCart fa-solid fa-cart-shopping"></i>
+              <i class="topBarCartL fa-solid fa-cart-shopping"></i>
             </span>
             Cart
             <span className="topInput">
