@@ -61,7 +61,7 @@
     padding-bottom: 200px;
   }
   .footerLeft {
-    padding: 0 20px;
+    padding: 0 10px;
   }
   .headingLeftR {
     text-align: start;
@@ -79,5 +79,11 @@
   }
   .headingLeftR {
     padding-top: 80px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .spanLeft {
+    margin-left: 10%;
   }
 }
