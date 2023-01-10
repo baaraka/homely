@@ -133,3 +133,22 @@
     height: 310px;
   }
 }
+
+@media only screen and (max-width: 320px) {
+  .aboutImage1 {
+    width: 130px;
+    height: 300px;
+  }
+  .aboutImage2 {
+    width: 130px;
+    height: 300px;
+  }
+  .aboutImg1 {
+    width: 130px;
+    height: 300px;
+  }
+  .aboutImg2 {
+    width: 130px;
+    height: 300px;
+  }
+}
