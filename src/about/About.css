@@ -78,3 +78,39 @@
   position: relative;
   background-color: rgb(33, 32, 32);
 }
+@media only screen and (max-width: 768px) {
+  .about {
+    flex-direction: column;
+  }
+  .aboutTitle {
+    margin-right: 75px;
+    padding-right: 40px;
+    bottom: 100px;
+    position: relative;
+  }
+  .aboutImage {
+    bottom: 70px;
+    position: relative;
+  }
+
+  .aboutImage1 {
+    width: 150px;
+    height: 250px;
+    right: 135px;
+    position: relative;
+  }
+  .aboutImage2 {
+    width: 150px;
+    height: 250px;
+    right: 135px;
+    position: relative;
+  }
+  .aboutImg1 {
+    width: 150px;
+    height: 250px;
+  }
+  .aboutImg2 {
+    width: 150px;
+    height: 250px;
+  }
+}
