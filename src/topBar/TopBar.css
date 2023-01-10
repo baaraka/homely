@@ -122,10 +122,6 @@
 }
 
 @media only screen and (max-width: 768px) {
-  .topBar {
-    position: sticky;
-    z-index: 1000;
-  }
   .topBarTitleItem {
     right: 50px;
     position: relative;
