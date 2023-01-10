@@ -80,7 +80,15 @@
 .appleLogo {
   font-size: 30px;
 }
-
+@media only screen and (max-width: 1024px) {
+  .getImg {
+    right: 100px;
+    position: relative;
+  }
+  .getImage {
+    overflow: hidden;
+  }
+}
 @media only screen and (max-width: 768px) {
   .getBody {
     flex-direction: column;
