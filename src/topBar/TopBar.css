@@ -73,3 +73,73 @@
   color: inherit;
   text-decoration: none;
 }
+.toggleMenu {
+  display: flex;
+  justify-content: flex-end;
+  float: right;
+  width: 100%;
+  z-index: 1000;
+  padding-right: 30px;
+}
+.showBtn {
+  color: white;
+  visibility: hidden;
+  font-size: 25px;
+  cursor: pointer;
+}
+.sideBarTitle {
+  top: 0;
+  flex-wrap: wrap;
+  height: 400px;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+}
+.sideBarListItems {
+  color: white;
+  font-size: 17px;
+  font-weight: 200;
+  list-style: none;
+  padding-top: 20px;
+  cursor: pointer;
+}
+.sideBarCartItem {
+  font-size: 20px;
+  display: flex;
+  padding: 10px 30px;
+  border-radius: 15px;
+  border: none;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: width 2s;
+  margin-top: 20px;
+  background-image: linear-gradient(orangered, orange);
+}
+
+@media only screen and (max-width: 768px) {
+  .topBar {
+    position: sticky;
+    z-index: 1000;
+  }
+  .topBarTitleItem {
+    right: 50px;
+    position: relative;
+  }
+  .showBtn {
+    visibility: visible;
+  }
+  .topBar {
+    justify-content: space-between;
+  }
+  .topBarTitle {
+    display: none;
+  }
+  .topBarCart {
+    display: none;
+  }
+}
