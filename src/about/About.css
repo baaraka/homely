@@ -78,7 +78,15 @@
   position: relative;
   background-color: rgb(33, 32, 32);
 }
-
+@media only screen and (max-width: 1440px) {
+  .about {
+    overflow: hidden;
+  }
+  .aboutImage {
+    left: 25px;
+    position: relative;
+  }
+}
 @media only screen and (max-width: 1024px) {
   .aboutTitle {
     padding-left: 90px;

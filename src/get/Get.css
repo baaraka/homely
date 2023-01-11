@@ -80,6 +80,16 @@
 .appleLogo {
   font-size: 30px;
 }
+@media only screen and (max-width: 1440px) {
+  .get {
+    overflow: hidden;
+  }
+  .getImage {
+    left: 25px;
+    position: relative;
+    overflow: hidden;
+  }
+}
 @media only screen and (max-width: 1024px) {
   .getImg {
     right: 100px;
