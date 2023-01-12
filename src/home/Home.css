@@ -91,24 +91,19 @@
   color: inherit;
   text-decoration: none;
 }
-@media only screen and (min-width: 2560px) {
-  .homeTitles {
-    width: 80%;
-  }
-}
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1200px) {
   .homeImgItem {
-    width: 600px;
-    height: 600px;
-    margin-left: 320px;
+    width: 450px;
+    height: 450px;
+    margin-left: 50px;
   }
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
   .homeImgItem {
     width: 400px;
     height: 400px;
-    margin-right: 80px;
+    margin-right: 140px;
   }
 }
 

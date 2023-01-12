@@ -65,14 +65,14 @@
   line-height: 25px;
 }
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1200px) {
   .whyTitleBodyItem {
     width: 600px;
     margin: 50px 50px;
   }
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 992px) {
   .whyTitleBodyItem {
     width: 500px;
     margin: 50px 40px;

@@ -76,16 +76,17 @@
   background-image: linear-gradient(orangered, orange);
 }
 
-@media only screen and (min-width: 1440px) {
-  .dishBody {
-    width: 85%;
-    margin-left: 100px;
+@media only screen and (min-width: 1200px) {
+  .dishBodyDiv {
+    height: 380px;
+    width: 380px;
   }
 }
-@media only screen and (min-width: 1024px) {
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
   .dishBodyDiv {
     height: 300px;
-    width: 310px;
+    width: 270px;
   }
   .dishImg {
     width: 150px;
