@@ -98,4 +98,7 @@
   .spanLeft {
     margin-left: 1%;
   }
+  .footer {
+    overflow: hidden;
+  }
 }
